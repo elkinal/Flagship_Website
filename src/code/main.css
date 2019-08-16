@@ -77,8 +77,13 @@
        .right-card {
             margin-left:10px;
        }
-       #footer {
+       #award-bar {
             margin-top:30px;
+            padding:15px;
+       }
+       .certificate {
+            padding:0;
+            margin-right:10px;
        }
        .octicon {
             width:50px;
