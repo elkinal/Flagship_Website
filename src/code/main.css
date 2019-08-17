@@ -73,9 +73,24 @@
             margin:0;
             padding:10px;
             display:inline-block;
+            width:100%;
+            height:100%;
        }
        .right-card {
             margin-left:10px;
+       }
+       .btn-dark {
+            position:absolute;
+            bottom:20px;
+            left:20px;
+       }
+       .btn-secondary {
+            position:absolute;
+            bottom:20px;
+            left:125px;
+       }
+       .card-text {
+            margin-bottom:40px;
        }
        #award-bar {
             margin-top:30px;
@@ -85,8 +100,14 @@
             padding:0;
             margin-right:10px;
        }
-       .octicon {
+       .icon {
             width:50px;
             height:50px;
             color:white;
+       }
+
+       @media only screen and (max-width: 990px) {
+         .up-margin {
+            margin-top:30px;
+         }
        }
