@@ -41,9 +41,9 @@
         <h1 id="name">Alexey Elkin</h1>
         <h4 id="description">Amateur Software Developer</h4>
         <div class="center-form">
-            <form action="server.php" method="post">
+            <form action="http://www.alexeyelkin.com/software/server.php" method="post">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control dark-form" placeholder="Ask Me Anything...">
+                    <input type="text" class="form-control dark-form" name="question" placeholder="Ask Me Anything..." autocomplete="off">
                     <div class="input-group-append">
                         <input type="submit" class="btn btn-info dark-form" value="Send">
                     </div>
@@ -62,7 +62,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="card">
-                    <img class="card-img-top" src="images/project-picture.jpg" alt="Card image">
+                    <img class="card-img-top" src="images/project-1.png" alt="Card image">
                     <div class="card-body">
                         <h4 class="card-title">N-Body Simulation</h4>
                         <p class="card-text">Some example text some example text. John Doe is an architect and engineer. This is sample text this is sample text.</p>
@@ -73,9 +73,9 @@
             </div>
             <div class="col-lg-4 up-margin">
                 <div class="card">
-                    <img class="card-img-top" src="images/project-picture.jpg" alt="Card image">
+                    <img class="card-img-top" src="images/project-2.png" alt="Card image">
                     <div class="card-body">
-                        <h4 class="card-title">N-Body Simulation</h4>
+                        <h4 class="card-title">Retro Arcade Game</h4>
                         <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
                         <a href="#" class="btn btn-dark btn-one">Download</a>
                         <a href="#" class="btn btn-secondary">See Code</a>
@@ -112,8 +112,7 @@
                     </div>
                     <div class="card-body">
                         <h6><i>Aspiring Software Engineer from Moscow, Russia</i></h6><hr>
-                        <p>I have attended <a href="#">Dragon School, Oxford</a> (2011-2016)<br>
-                        Currently attending <a href="#">Tonbridge School, Kent</a> (2016-present) </p>
+                        <p>Currently attending <a href="#">Tonbridge School, Kent</a> (2016-present) </p>
                         <p>I received the <b>Java SE 8 Programmer Qualification</b> in 2018 after completing the OCAJP exam. My badge can be found <a href="#">here</a>. </p>
                         <p>Being interested in Software Development since age 10, some of my earlier projects can be found <a href="#">here</a>. </p>
                         <p>I am currently working towards the <b>OCPJP</b> <i>(Oracle Certified Professional Programmer Qualification)</i></p>
@@ -135,6 +134,20 @@
                         <p>Most of my recent projects can be found on <a href="#">Github</a>, where my progress can be tracked.
                         All my projects have public repositories, so the code is free to view or copy.</p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="footer">
+            <div class="col-sm-12">
+                <div class="card">
+                    <form action="http://www.alexeyelkin.com/software/server.php" method="post">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" name="subscription" placeholder="Enter email to subscribe" autocomplete="off">
+                            <div class="input-group-append">
+                                <input type="submit" class="btn btn-info" value="Send">
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
