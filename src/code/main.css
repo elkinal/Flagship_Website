@@ -11,6 +11,15 @@
             margin-top:-125px;
             color:whitesmoke;
         }
+        #chevron { /* The horizontal alignment is a stilt - look for a better altelnative solution */
+            width:100px;
+            height:100px;
+            position:absolute;
+            bottom:0;
+            left:50vw;
+            margin-left:-50px;
+            cursor:pointer;
+        }
         #name {
             font-size:90px;
             font-family:Segoe UI Light;
